@@ -11,4 +11,4 @@
   @<project_dir>_path \
   source ./bin/activate (poetry shellが効かないので。)
 * poetryの設定をrequirements.txtに出力 \
-  poetry export -f requirements.txt > requirements.txt
+  poetry export -f requirements.txt --output requirements.txt4 --without-hashes
